@@ -59,4 +59,29 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     border: none;
+    gap: 10px;
+}
+
+.reaction{
+    background-color: #ffd7d7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.memory{
+    background-color: #fff3d7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.verbal{
+    background-color: #deffd7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.visual{
+    background-color: #d7e3ff;
+    border-radius: 5px;
+    padding: 10px;
 }

@@ -5,8 +5,7 @@
 }
 
 :root {
-  --primaryCol: red;
-  --secondaryCol: blue;
+  --primaryCol: blue;
 }
 
 body {
@@ -16,5 +15,29 @@ body {
 .model{
     background-color: white;
     border-radius: 20px;
-    border: black 5px solid;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    max-width: 50%;
+    border: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left{
+    background-color: var(--primaryCol);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    border: none;
+}
+
+.right{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
 }

@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryCol: red;
+  --secondaryCol: blue;
+}
+
+body {
+  background-color: lightslategrey;
+}
+
+.model{
+    background-color: white;
+    border-radius: 20px;
+    border: black 5px solid;
+}

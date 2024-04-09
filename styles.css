@@ -65,6 +65,7 @@ h4{
 
 .left{
     background-color: var(--primaryCol);
+    background-image: linear-gradient(rgb(28, 62, 255), rgb(0, 0, 156));
     border-radius: 20px;
     padding: 20px;
     color: white;
@@ -108,17 +109,19 @@ h4{
     position: relative;
     width: 500px;
     max-width: 100%;
-    bottom: 0px;
-    transition: background-color 1s, color 1s;
+    
+    transition: background-color 1s, color 1s font-size 1s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-weight: bold;
 }
 
 .continue-button:hover{
-    background-color: cornflowerblue;
+    background-color: var(--primaryCol);
     color: white;
-    /* max-width: 110%; */
-    transition: background-color 1s, color 1s;
+    font-size: 14px;
+    transition: background-color 1s, color 1s, font-size 1s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
 }
 
 .score-grid{
@@ -139,6 +142,7 @@ h4{
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    font-weight: light;
 }
 
 .reaction{
@@ -170,3 +174,11 @@ h4{
 }
 
 
+.score-individual{
+    color: rgb(24, 24, 24);
+}
+
+.s100{
+    color: rgb(121, 121, 121);
+    font-weight: light;
+}

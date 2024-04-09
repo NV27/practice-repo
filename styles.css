@@ -43,7 +43,7 @@ h4{
 
 .words{
     text-align: center;
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .model{
@@ -181,4 +181,23 @@ h4{
 .s100{
     color: rgb(121, 121, 121);
     font-weight: light;
+}
+
+@media screen and (max-width: 800px) {
+    .grid-container{
+        flex-direction: column;
+
+    }
+
+    .left{
+        max-width: 100%;
+    }
+
+    .right{
+        max-width: 100%;
+    }
+
+    .model{
+        height: 600px;
+    }
 }
